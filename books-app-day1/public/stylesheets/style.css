@@ -1,0 +1,22 @@
+body {
+  font-weight: 100;
+  font-family: sans-serif; }
+
+h1, h2, h3 {
+  font-weight: 100; }
+
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: 1px solid;
+  margin-bottom: 20px;
+  font-size: .8em; }
+
+.navigation ul {
+  list-style: none;
+  display: flex; }
+
+.navigation li {
+  margin: 10px; }
+
+/*# sourceMappingURL=style.css.map */

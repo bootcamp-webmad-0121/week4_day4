@@ -1,0 +1,13 @@
+body {
+  padding: 50px;
+  font-family: sans-serif; }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  border-top: 1px solid #dfdfdf;
+  width: 100%;
+  padding: 5px 0;
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */

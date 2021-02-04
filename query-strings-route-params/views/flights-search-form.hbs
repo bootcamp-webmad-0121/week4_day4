@@ -1,0 +1,33 @@
+<h1>Buscador de vuelos fake</h1>
+
+<hr>
+
+<form action="/vuelos/resultados" method="GET">
+
+    <label>
+        Salida desde: <input type="text" name="departure">
+    </label>
+    <br><br>
+    <label>
+        Llegada: <input type="text" name="arrival">
+    </label>
+    <br><br>
+    <label>
+        Fecha ida: <input type="date" name="from">
+    </label>
+    <br><br>
+    <label>
+        Fecha vuelta: <input type="date" name="to">
+    </label>
+    <br><br>
+    <label>
+        Clase:
+        <select name="class">
+            <option value="turist">Turista</option>
+            <option value="business">Business</option>
+            <option value="putocrack">Megatop</option>
+        </select>
+    </label>
+    <br><br>
+    <input type="submit" value="Buscar vuelos">
+</form>
