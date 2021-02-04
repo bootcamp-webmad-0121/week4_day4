@@ -20,7 +20,13 @@
 
 
 ## Main points: *seeding*
-- TODO
+- Crear un archivo dotado de:
+   - Conexión a la BBDD (misma BBDD de la aplicación)
+   - Modelo
+   - Operación para la creación de los registros
+   - Desconexión de la base de datos
+   
+- Ejecutar el archivo mediante `node`
   
 ## Apuntes finales
 - La etiqueta `form` dispone de dos atributos: `action` (destino de la información) y `method` (método de envío)
